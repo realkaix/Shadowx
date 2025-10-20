@@ -30,7 +30,7 @@ local shadowxlib = {
 			}),
 			["Color Hub 2"] = Color3.fromRGB(45, 45, 45),
 			["Color Stroke"] = Color3.fromRGB(65, 65, 65),
-			["Color Theme"] = Color3.fromRGB(65, 150, 255),
+			["Color Theme"] = Color3.fromRGB(150, 0, 199),
 			["Color Text"] = Color3.fromRGB(245, 245, 245),
 			["Color Dark Text"] = Color3.fromRGB(190, 190, 190)
 		},
@@ -2613,7 +2613,7 @@ function shadowxlib:MakeWindow(Configs)
 			local InviteLabel = Create("TextLabel", InviteHolder, {
 				Size = UDim2.new(1, 0, 0, 15),
 				Position = UDim2.new(0, 5),
-				TextColor3 = Color3.fromRGB(57, 255, 20),
+				TextColor3 = Color3.fromRGB(40, 150, 255),
 				Font = Enum.Font.GothamBold,
 				TextXAlignment = "Left",
 				BackgroundTransparency = 1,
